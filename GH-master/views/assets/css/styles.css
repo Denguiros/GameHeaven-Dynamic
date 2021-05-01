@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.product-list:hover {
+  background-color: #040404;
+}
+
+body {
+  background: linear-gradient(135deg, #16181a, #47505a);
+}
+
+table, tr, thead {
+  color: white;
+}
+

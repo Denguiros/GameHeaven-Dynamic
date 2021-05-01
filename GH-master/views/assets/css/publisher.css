@@ -1,0 +1,15 @@
+@media (max-width: 570px) {
+  .publisherLogo {
+    width: 50% !important;
+    min-width: 70px;
+  }
+}
+
+.publisherLogo {
+  width: 100%;
+  min-width: 80px;
+}
+
+.publisherLogo {
+}
+

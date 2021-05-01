@@ -1,0 +1,55 @@
+.dropdown {
+  margin-right: 1em !important;
+}
+
+/* rows */
+
+div.dropdown-multicol {
+  width: 40em !important;
+}
+
+div.dropdown-row > a.dropdown-item {
+  display: inline-block !important;
+  width: 32% !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+#dropdownMenuButton {
+  background-color: Transparent !important;
+  background-repeat: no-repeat !important;
+  border: none !important;
+  cursor: pointer !important;
+  overflow: hidden !important;
+  outline: none !important;
+}
+
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s !important;
+    -webkit-animation-duration: 0.3s !important;
+    animation-fill-mode: both !important;
+    -webkit-animation-fill-mode: both !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
